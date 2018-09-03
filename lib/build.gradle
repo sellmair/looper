@@ -2,11 +2,11 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'maven-publish'
 
-ext.version = "1.0.0-RC0"
 
 ext {
+    version = "1.0.0-RC.0"
     bintrayRepo = 'sellmair'
-    bintrayName = 'kompass'
+    bintrayName = 'looper'
 
     publishedGroupId = 'io.sellmair'
     libraryName = 'Looper'
