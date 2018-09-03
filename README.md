@@ -21,6 +21,12 @@ dependencies {
 val thread = Looper.start()
 ```
 
+##### Wait for startup
+```kotlin
+// Current thread will wait until looper thread is fully booted
+thread.awaitStartup()
+```
+
 ##### Executing 
 ```kotlin
 
