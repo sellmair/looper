@@ -1,4 +1,4 @@
-#Looper 
+# Looper 
 A simple Looper-Thread implementation for Android
 
 ![GitHub top language](https://img.shields.io/github/languages/top/sellmair/looper.svg)
