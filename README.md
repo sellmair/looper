@@ -18,7 +18,7 @@ dependencies {
 ##### Starting the thread
 
 ```kotlin
-val thread = Looper.start()
+val thread = LooperThread.start()
 ```
 
 ##### Wait for startup
