@@ -10,6 +10,13 @@ A simple Looper-Thread implementation for Android
 
 ##### gradle
 ```groovy
+
+allprojects {
+    repositories {
+        maven { url "https://dl.bintray.com/sellmair/sellmair/" }
+    }
+}
+
 dependencies { 
     implement "io.sellmair:looper:1.0.0-RC.0"
 }
